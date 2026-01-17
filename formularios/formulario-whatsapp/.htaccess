@@ -1,0 +1,5 @@
+# Impedir que se pueda ver el archivo .env desde el navegador
+<Files .env>
+    Order allow,deny
+    Deny from all
+</Files>
